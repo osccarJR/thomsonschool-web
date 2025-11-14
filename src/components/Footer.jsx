@@ -20,6 +20,7 @@ export function Footer() {
           </p>
         </div>
 
+        {/* --- PARTE INFERIOR ACTUALIZADA --- */}
         <div className="border-t border-white/20 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex space-x-6 text-sm text-white/70">
@@ -28,14 +29,30 @@ export function Footer() {
               <span>Quito, Ecuador</span>
             </div>
 
-            <Link
-              to="/proteccion-datos"
-              className="text-sm text-white/90 hover:text-white underline underline-offset-4 transition-colors"
-            >
-              Ley de Protección de Datos
-            </Link>
+            <div className="flex flex-col md:flex-row items-center text-sm text-white/70 space-y-2 md:space-y-0 md:space-x-6">
+
+              <a
+                href="/#/proteccion-datos"
+                className="hover:text-white transition-colors underline underline-offset-4"
+              >
+                Ley de Protección de Datos
+              </a>
+
+              <span className="hidden md:block">•</span>
+
+              <a
+                href="https://www.nivusoftware.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors flex items-center space-x-1"
+              >
+                <span>Desarrollado por</span>
+                <span className="font-semibold text-white">NivuSoftware</span>
+              </a>
+            </div>
           </div>
         </div>
+        {/* --- FIN PARTE INFERIOR --- */}
       </div>
     </footer>
   );

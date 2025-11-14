@@ -225,8 +225,17 @@ export default function DataProtectionPage() {
             <span>© {currentYear} Thomson School</span>
             <span>•</span>
             <span>Quito, Ecuador</span>
-            <span>•</span>
-            <span>Todos los derechos reservados</span>
+          </div>
+          <div className="mt-4 text-sm text-white/70 flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-4">
+            <a
+              href="https://www.nivusoftware.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors flex items-center space-x-1"
+            >
+              <span>Desarrollado por</span>
+              <span className="font-semibold text-white">NivuSoftware</span>
+            </a>
           </div>
         </div>
       </footer>
