@@ -151,6 +151,8 @@ export default function DataProtectionPage() {
                 </p>
 
                 <div className="grid sm:grid-cols-2 gap-4">
+
+                  {/* PDF #1 */}
                   <a
                     href="/docs/05-politica-proteccion-datos-personales.pdf"
                     target="_blank"
@@ -171,8 +173,27 @@ export default function DataProtectionPage() {
                     <Download className="w-5 h-5 text-gray-500" />
                   </a>
 
-                  {/* Cuando te den más PDFs, puedes duplicar este bloque y cambiar
-                      el href, el título y la descripción */}
+                  {/* PDF #2 */}
+                  <a
+                    href="/docs/06-aviso-privacidad-institucional.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-between bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg px-4 py-3 transition-colors"
+                  >
+                    <div className="flex items-center space-x-3">
+                      <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center border border-gray-200">
+                        <FileText className="w-5 h-5 text-gray-700" />
+                      </div>
+                      <div>
+                        <p className="text-sm font-medium text-gray-900">
+                          Aviso de Privacidad Institucional
+                        </p>
+                        <p className="text-xs text-gray-500">PDF · descarga directa</p>
+                      </div>
+                    </div>
+                    <Download className="w-5 h-5 text-gray-500" />
+                  </a>
+
                 </div>
               </section>
 
