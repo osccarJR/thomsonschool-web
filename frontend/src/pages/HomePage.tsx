@@ -4,6 +4,7 @@ import { HeroSection } from '../components/HeroSection';
 import { AboutSection } from '../components/AboutSection';
 import { ContactSection } from '../components/ContactSection';
 import { Footer } from '../components/Footer';
+import { MisionVision } from '../components/MisionVision';
 
 export function HomePage() {
   return (
@@ -12,6 +13,7 @@ export function HomePage() {
       <main>
         <HeroSection />
         <AboutSection />
+        <MisionVision />
         <ContactSection />
       </main>
       <Footer />

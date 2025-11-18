@@ -1,15 +1,35 @@
 services:
-  tschool-dev:
-    container_name: tschool_dev
+  backend:
     build:
-      context: .
+      context: ./backend
       dockerfile: Dockerfile
+    container_name: tschool-backend
+    env_file:
+      - ./backend/.env
+    ports:
+      - "5000:5000"
+    restart: always
+    networks:
+      - tschool-network
+
+  tschool_dev:
+    build:
+      context: ./frontend      
+      dockerfile: Dockerfile    
+    container_name: tschool-frontend
     working_dir: /app
     volumes:
-      - .:/app:cached
+      - ./frontend:/app:cached
       - /app/node_modules
     ports:
       - "5173:5173"
     environment:
       - NODE_ENV=development
     command: ["npm", "run", "dev", "--", "--host"]
+    depends_on:
+      - backend
+    networks:
+      - tschool-network
+networks:
+  tschool-network:
+    driver: bridge

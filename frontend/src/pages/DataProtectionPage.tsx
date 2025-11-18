@@ -125,8 +125,8 @@ export default function DataProtectionPage() {
                   con el tratamiento de sus datos personales, puede contactarnos a través de:
                 </p>
                 <div className="space-y-2">
-                  <p><strong>Email:</strong> datospersonales@thomsonschool.edu.ec</p>
-                  <p><strong>Teléfono:</strong> 0987-654-321</p>
+                  <p><strong>Email:</strong> info@thomsonschool.edu.ec</p>
+                  <p><strong>Teléfono:</strong> 098 467 8269</p>
                   <p><strong>Dirección:</strong> Quito, Ecuador</p>
                 </div>
                 <p className="mt-4 text-sm">
@@ -210,7 +210,7 @@ export default function DataProtectionPage() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 px-6 mt-12" style={{ backgroundColor: '#7A1D2A' }}>
+      <footer className="py-8 px-6 mt-12" style={{ backgroundColor: '#2a6644' }}>
         <div className="max-w-4xl mx-auto text-center text-white">
           <div className="flex items-center justify-center space-x-3 mb-4">
             <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
@@ -219,7 +219,7 @@ export default function DataProtectionPage() {
             <h3 className="text-lg">Thomson School</h3>
           </div>
           <p className="text-white/80 mb-4">
-            Formando líderes del futuro con excelencia educativa desde 1998
+            Formando líderes del futuro con excelencia educativa desde 1999
           </p>
           <div className="flex justify-center space-x-6 text-sm text-white/70">
             <span>© {currentYear} Thomson School</span>
