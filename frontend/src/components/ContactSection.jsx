@@ -13,6 +13,7 @@ export function ContactSection() {
     numero_contacto: "",
     colegio_actual: "",
     necesidades_especiales: "",
+    nivel: "",
     mensaje: "",
   });
 
@@ -59,6 +60,7 @@ export function ContactSection() {
         numero_contacto: "",
         colegio_actual: "",
         necesidades_especiales: "",
+        nivel: "",
         mensaje: "",
       });
     } catch (error) {
@@ -201,6 +203,17 @@ export function ContactSection() {
                   <option value="si">Sí</option>
                   <option value="no">No</option>
                 </select>
+              </div>
+
+              <div className="md:col-span-2">
+                <label className="block text-white mb-1">Nivel al que aplica</label>
+                <input
+                  name="nivel"
+                  value={formData.nivel}
+                  onChange={handleChange}
+                  rows="4"
+                  className="w-full px-4 py-2 rounded-md bg-white/80"
+                />
               </div>
 
               <div className="md:col-span-2">

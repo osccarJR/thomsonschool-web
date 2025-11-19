@@ -10,4 +10,5 @@ class MailSchema(Schema):
         required=True,
         validate=validate.OneOf(["si", "no"])
     )
+    nivel = fields.String(allow_none=True)
     mensaje = fields.String(allow_none=True)

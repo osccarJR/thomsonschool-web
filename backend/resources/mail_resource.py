@@ -30,6 +30,7 @@ def send_email(data):
     numero_contacto = data["numero_contacto"]
     colegio_actual = data["colegio_actual"]
     necesidades_especiales = data["necesidades_especiales"]
+    nivel = data["nivel"]
     mensaje = data.get("mensaje", "")
 
     try:
@@ -37,6 +38,7 @@ def send_email(data):
         msg["Subject"] = f"📩 Nueva solicitud de admisión – {nombre_alumno}"
         msg["From"] = MAIL_SENDER
         msg["To"] = "info@thomsonschool.edu.ec"
+        
 
         # ----------- PLAIN TEXT -----------
         msg.set_content(
@@ -49,6 +51,7 @@ Representante legal: {representante_legal}
 Número de contacto: {numero_contacto}
 Colegio actual: {colegio_actual}
 Necesidades especiales: {necesidades_especiales}
+Nivel al que aplica: {nivel}
 Mensaje: {mensaje}
 
 Notificación automática – Thomson School
@@ -111,6 +114,11 @@ Notificación automática – Thomson School
                     <tr>
                         <td style="font-weight:bold; color:#7A1D2A;">Necesidades especiales:</td>
                         <td>{necesidades_especiales}</td>
+                    </tr>
+
+                    <tr>
+                        <td style="font-weight:bold; color:#7A1D2A;">Nivel al que aplica:</td>
+                        <td>{nivel}</td>
                     </tr>
 
                     <tr>
