@@ -52,7 +52,7 @@ export function HeroSection() {
           UNIDAD EDUCATIVA PARTICULAR{" "}
         </h1>
         <h1 className="text-4xl md:text-5xl mb-6 font-bold">"JOSEPH JHON THOMSON"</h1>
-        <h1 className="text-4xl md:text-5xl mb-6 font-semibold">Sede Mi Pequeño Tesoro</h1>
+        <h1 className="text-4xl md:text-5xl mb-6 font-semibold">CDI Mi Pequeño Tesoro</h1>
 
 
        
