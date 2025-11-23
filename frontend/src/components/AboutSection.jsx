@@ -68,7 +68,7 @@ export function AboutSection() {
                 ></div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-900">
-                    CDI Thomson School – Sede Escuela
+                    Thomson School – Sede Escuela
                   </h4>
                   <p className="text-base text-gray-700 leading-relaxed">
                     <strong>Dirección:</strong> Calle De los Nopales N62-156 y los Helechos
@@ -84,7 +84,7 @@ export function AboutSection() {
                 ></div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-900">
-                    CDI Thomson High School – Sede Colegio
+                    Thomson High School – Sede Colegio
                   </h4>
                   <p className="text-base text-gray-700 leading-relaxed">
                     <strong>Dirección:</strong> Calle De los Helechos N62-114 y Nopales
