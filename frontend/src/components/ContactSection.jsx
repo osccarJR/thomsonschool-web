@@ -148,14 +148,19 @@ export function ContactSection() {
 
               <div>
                 <label className="block text-white mb-1">Año lectivo que desea</label>
-                <input
+                <select
                   name="anio_lectivo"
                   value={formData.anio_lectivo}
                   onChange={handleChange}
                   className="w-full px-4 py-2 rounded-md bg-white/80"
                   required
-                />
+                >
+                  <option value="">Seleccione una opción</option>
+                  <option value="2025-2026">2025-2026</option>
+                  <option value="2026-2027">2026-2027</option>
+                </select>
               </div>
+
 
               <div>
                 <label className="block text-white mb-1">Representante legal</label>

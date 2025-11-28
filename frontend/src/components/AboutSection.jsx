@@ -37,9 +37,8 @@ export function AboutSection() {
 
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
               Thomson School es una institución educativa ubicada en Quito, Ecuador,
-              con más de 25 años formando estudiantes íntegros y competentes, con 3 sedes.
-              Ofrecemos una educación de calidad que combina excelencia académica con valores
-              sólidos.
+              con más de 25 años de experiencia educativa.<br /> Formando estudiantes con habilidades cognitivas para la vida y desarrollo crítico, resolución de problemas y comunicación asertiva.
+              Ofrecemos una educación de calidad que combina excelencia académica con valores. <br /> Contamos con tres sedes:
             </p>
 
             <div className="space-y-6">

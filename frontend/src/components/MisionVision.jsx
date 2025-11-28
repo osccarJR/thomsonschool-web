@@ -16,20 +16,7 @@ export function MisionVision() {
 
         {/* GRID 2 COLUMNAS */}
         <div className="grid md:grid-cols-2 gap-16 items-start">
-
-          {/* VISIÓN */}
-          <div>
-            <h3 className="text-2xl font-bold text-[#1E7145]">Visión</h3>
-            <div className="w-16 h-1 bg-[#1E7145] mt-2 mb-4"></div>
-
-            <p className="text-gray-700 leading-relaxed text-lg">
-              En la Unidad Educativa Joseph Jhon Thomson se proyecta a ser una institución 
-              líder en servicios educativos, mediante una enseñanza de calidad con calidez, 
-              humanista, personal, integral y responsable en todos los procesos educativos, 
-              promoviendo el desarrollo positivo e íntegro de los alumnos y su entorno.
-            </p>
-          </div>
-
+          
           {/* MISIÓN */}
           <div>
             <h3 className="text-2xl font-bold text-[#7A1D2A]">Misión</h3>
@@ -43,6 +30,19 @@ export function MisionVision() {
             </p>
           </div>
 
+
+          {/* VISIÓN */}
+          <div>
+            <h3 className="text-2xl font-bold text-[#1E7145]">Visión</h3>
+            <div className="w-16 h-1 bg-[#1E7145] mt-2 mb-4"></div>
+
+            <p className="text-gray-700 leading-relaxed text-lg">
+              En la Unidad Educativa Joseph Jhon Thomson se proyecta a ser una institución 
+              líder en servicios educativos, mediante una enseñanza de calidad con calidez, 
+              humanista, personal, integral y responsable en todos los procesos educativos, 
+              promoviendo el desarrollo positivo e íntegro de los alumnos y su entorno.
+            </p>
+          </div>
         </div>
 
         {/* =========================

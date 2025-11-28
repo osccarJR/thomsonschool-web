@@ -199,9 +199,17 @@ export default function DataProtectionPage() {
 
               <div className="mt-8 p-6 bg-gray-50 rounded-lg border border-gray-200">
                 <p className="text-sm text-gray-700">
-                  <strong>Última actualización:</strong> Octubre 2024<br />
+                  <strong>Última actualización:</strong> Octubre 2025<br />
                   <strong>Responsable del tratamiento:</strong> Unidad Educativa Thomson – CDI Mi Pequeño Tesoro<br />
                   <strong>Normativa aplicable:</strong> Ley Orgánica de Protección de Datos Personales del Ecuador
+                </p>
+              </div>
+
+              <div className="mt-8 p-6 bg-gray-50 rounded-lg border border-gray-200">
+                <h2 className="py-4 text-lg font-medium text-gray-900">Contacto Delegado de Protección de Datos</h2>
+                <p className="text-sm text-gray-700">
+                  <strong>Telefono:</strong> 0991091585<br />
+                  <strong>Correo:</strong> dpd@thomsonschool.edu.ec<br />
                 </p>
               </div>
             </div>
