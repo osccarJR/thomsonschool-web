@@ -125,8 +125,8 @@ export default function DataProtectionPage() {
                   con el tratamiento de sus datos personales, puede contactarnos a través de:
                 </p>
                 <div className="space-y-2">
-                  <p><strong>Email:</strong> info@thomsonschool.edu.ec</p>
-                  <p><strong>Teléfono:</strong> 098 467 8269</p>
+                  <p><strong>Email:</strong> dpd@thomsonschool.edu.ec</p>
+                  <p><strong>Teléfono:</strong> 099 109 1585</p>
                   <p><strong>Dirección:</strong> Quito, Ecuador</p>
                 </div>
                 <p className="mt-4 text-sm">
@@ -205,13 +205,7 @@ export default function DataProtectionPage() {
                 </p>
               </div>
 
-              <div className="mt-8 p-6 bg-gray-50 rounded-lg border border-gray-200">
-                <h2 className="py-4 text-lg font-medium text-gray-900">Contacto Delegado de Protección de Datos</h2>
-                <p className="text-sm text-gray-700">
-                  <strong>Telefono:</strong> 0991091585<br />
-                  <strong>Correo:</strong> dpd@thomsonschool.edu.ec<br />
-                </p>
-              </div>
+            
             </div>
           </div>
         </div>
