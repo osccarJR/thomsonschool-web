@@ -38,120 +38,49 @@ export default function DataProtectionPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Shield className="w-16 h-16 mx-auto mb-6" style={{ color: '#7A1D2A' }} />
-            <h1 className="text-4xl text-gray-900 mb-4">Ley de Protección de Datos</h1>
+            {/* ✅ Mantener el título */}
+            <h1 className="text-4xl text-gray-900 mb-4">
+              LEY ORGÁNICA DE PROTECCIÓN DE DATOS PERSONALES
+            </h1>
             <div className="w-24 h-1 mx-auto" style={{ backgroundColor: '#7A1D2A' }}></div>
           </div>
 
           <div className="bg-white rounded-lg shadow-lg border border-gray-100 p-8 md:p-12">
-            <div className="prose max-w-none text-gray-600">
-              <h2 className="text-2xl text-gray-900 mb-6">Tratamiento de Datos Personales</h2>
+            <div className="prose max-w-none text-gray-700">
+              {/* ✅ Nuevo contenido (reemplazo total) */}
+              <h2 className="text-2xl text-gray-900 mb-6">Protección de Datos Personales</h2>
 
               <p className="mb-6">
-                En cumplimiento de la <strong>Ley Orgánica de Protección de Datos Personales del Ecuador</strong>,
-                la Unidad Educativa Thomson – CDI Mi Pequeño Tesoro informa que los datos personales
-                proporcionados por estudiantes, padres de familia y/o representantes legales serán tratados
-                de manera confidencial, segura y responsable.
+                En <strong>JJ Thomson Education C.L.</strong>, respetamos y garantizamos el derecho fundamental a la
+                protección de datos personales, reconocido en la Constitución de la República del Ecuador y desarrollado
+                en la <strong>Ley Orgánica de Protección de Datos Personales (LOPDP)</strong> y su Reglamento.
               </p>
 
-              <div className="bg-gray-50 rounded-lg p-6 mb-6">
-                <h3 className="text-xl text-gray-900 mb-4">Finalidad del Tratamiento</h3>
-                <p className="mb-3">Los datos personales recopilados serán utilizados exclusivamente para:</p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>Gestión de procesos de admisión, matrícula y seguimiento académico</li>
-                  <li>Comunicación institucional con padres de familia y representantes legales</li>
-                  <li>Envío de información educativa, eventos y actividades escolares</li>
-                  <li>Cumplimiento de obligaciones legales y reglamentarias del sector educativo</li>
-                  <li>Gestión administrativa y financiera relacionada con la prestación del servicio educativo</li>
-                </ul>
-              </div>
-
-              <h3 className="text-xl text-gray-900 mb-4">Principios de Tratamiento</h3>
-              <p className="mb-4">
-                Thomson School se compromete a tratar sus datos personales bajo los siguientes principios:
-              </p>
-              <ul className="list-disc pl-6 mb-6 space-y-2">
-                <li><strong>Licitud:</strong> Los datos serán tratados de manera lícita y transparente</li>
-                <li><strong>Finalidad:</strong> Solo para los fines específicos informados</li>
-                <li><strong>Confidencialidad:</strong> Protección y seguridad de la información</li>
-                <li><strong>Calidad:</strong> Datos exactos, actualizados y veraces</li>
-                <li><strong>Proporcionalidad:</strong> Solo se recopilan datos necesarios</li>
-              </ul>
-
-              <div
-                className="bg-blue-50 rounded-lg p-6 mb-6 border-l-4"
-                style={{ borderColor: '#3D9BE9' }}
-              >
-                <h3 className="text-xl text-gray-900 mb-4">Derechos del Titular de los Datos</h3>
-                <p className="mb-3">Conforme a la legislación vigente, usted tiene derecho a:</p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li><strong>Acceso:</strong> Conocer qué datos personales posee la institución</li>
-                  <li><strong>Rectificación:</strong> Solicitar la corrección de datos inexactos o incompletos</li>
-                  <li><strong>Cancelación:</strong> Solicitar la eliminación de sus datos personales</li>
-                  <li><strong>Oposición:</strong> Oponerse al tratamiento de sus datos en determinadas circunstancias</li>
-                  <li><strong>Portabilidad:</strong> Obtener una copia de sus datos en formato estructurado</li>
-                </ul>
-              </div>
-
-              <h3 className="text-xl text-gray-900 mb-4">Seguridad de los Datos</h3>
               <p className="mb-6">
-                Thomson School implementa medidas técnicas, organizativas y de seguridad apropiadas
-                para proteger los datos personales contra acceso no autorizado, pérdida, destrucción
-                o alteración. El acceso a la información está limitado exclusivamente al personal
-                autorizado que requiere conocer dichos datos para el cumplimiento de sus funciones.
+                Como titular de sus datos personales, usted tiene derecho a <strong>acceder</strong>,{' '}
+                <strong>rectificar</strong>, <strong>actualizar</strong>, <strong>oponerse</strong>,{' '}
+                <strong>solicitar la eliminación</strong>, la <strong>portabilidad</strong> y la{' '}
+                <strong>limitación del tratamiento</strong> de su información, entre otros derechos reconocidos
+                legalmente.
               </p>
 
-              <h3 className="text-xl text-gray-900 mb-4">Compartición de Datos</h3>
-              <p className="mb-6">
-                Thomson School no compartirá, venderá ni cederá sus datos personales a terceros,
-                excepto cuando sea necesario para cumplir con obligaciones legales, reglamentarias
-                o cuando sea requerido por autoridades competentes.
-              </p>
-
-              <h3 className="text-xl text-gray-900 mb-4">Conservación de Datos</h3>
-              <p className="mb-6">
-                Los datos personales serán conservados durante el tiempo necesario para cumplir con
-                las finalidades para las cuales fueron recopilados, y posteriormente durante el plazo
-                establecido por las disposiciones legales aplicables en materia de archivo y conservación
-                de documentos.
-              </p>
-
-              <div
-                className="bg-green-50 rounded-lg p-6 mb-6 border-l-4"
-                style={{ borderColor: '#1E7145' }}
-              >
-                <h3 className="text-xl text-gray-900 mb-4">Ejercicio de Derechos y Contacto</h3>
-                <p className="mb-4">
-                  Para ejercer cualquiera de los derechos mencionados o para consultas relacionadas
-                  con el tratamiento de sus datos personales, puede contactarnos a través de:
-                </p>
-                <div className="space-y-2">
-                  <p><strong>Email:</strong> dpd@thomsonschool.edu.ec</p>
-                  <p><strong>Teléfono:</strong> 099 109 1585</p>
-                  <p><strong>Dirección:</strong> Quito, Ecuador</p>
-                </div>
-                <p className="mt-4 text-sm">
-                  Su solicitud será atendida en un plazo máximo de 15 días hábiles desde su recepción.
+              <div className="bg-gray-50 rounded-lg p-6 mb-6 border border-gray-200">
+                <p className="mb-0 text-gray-700">
+                  Para conocer a fondo cómo tratamos sus datos personales, le invitamos a consultar y descargar nuestras{' '}
+                  <strong>Políticas de Protección de Datos Personales</strong>, disponibles en los documentos adjuntos
+                  en esta sección.
                 </p>
               </div>
 
-              <h3 className="text-xl text-gray-900 mb-4">Consentimiento</h3>
-              <p className="mb-6">
-                Al proporcionar sus datos personales a Thomson School, usted otorga su consentimiento
-                expreso para el tratamiento de los mismos conforme a lo establecido en la presente
-                política y la normativa vigente. Este consentimiento podrá ser revocado en cualquier
-                momento, sin efectos retroactivos.
-              </p>
-
-              {/* Formularios / documentos descargables */}
+              {/* ✅ Mantener archivos descargables */}
               <section className="mt-10">
                 <h2 className="text-2xl text-gray-900 mb-4">Formularios y documentos</h2>
                 <p className="mb-4 text-sm text-gray-600">
-                  Aquí puede descargar la política completa de protección de datos personales y, en caso de
-                  ser necesario, otros formularios relacionados.
+                  Aquí puede descargar la política completa de protección de datos personales y, en caso de ser
+                  necesario, otros formularios relacionados.
                 </p>
 
                 <div className="grid sm:grid-cols-2 gap-4">
-
                   {/* PDF #1 */}
                   <a
                     href="/docs/05-politica-proteccion-datos-personales.pdf"
@@ -185,27 +114,14 @@ export default function DataProtectionPage() {
                         <FileText className="w-5 h-5 text-gray-700" />
                       </div>
                       <div>
-                        <p className="text-sm font-medium text-gray-900">
-                          Aviso de Privacidad Institucional
-                        </p>
+                        <p className="text-sm font-medium text-gray-900">Aviso de Privacidad Institucional</p>
                         <p className="text-xs text-gray-500">PDF · descarga directa</p>
                       </div>
                     </div>
                     <Download className="w-5 h-5 text-gray-500" />
                   </a>
-
                 </div>
               </section>
-
-              <div className="mt-8 p-6 bg-gray-50 rounded-lg border border-gray-200">
-                <p className="text-sm text-gray-700">
-                  <strong>Última actualización:</strong> Octubre 2025<br />
-                  <strong>Responsable del tratamiento:</strong> Unidad Educativa Thomson – CDI Mi Pequeño Tesoro<br />
-                  <strong>Normativa aplicable:</strong> Ley Orgánica de Protección de Datos Personales del Ecuador
-                </p>
-              </div>
-
-            
             </div>
           </div>
         </div>
